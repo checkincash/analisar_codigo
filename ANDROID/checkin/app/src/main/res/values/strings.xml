@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Check-incash</string>
+    <string name="logar">ACESSAR</string>
+    <string name="sem_conta">Não tem conta? Cadastre-se</string>
+    <string name="gravar">CADASTRAR</string>
+    <string name="esqueci_senha">Esqueceu sua senha?</string>
+    <string name="mensagem_conexao_sucesso">Conexao criada com sucesso!</string>
+    <string name="mensagem_ok">OK</string>
+    <string name="mensagem_titulo_erro">ERRO CONEXAO SQLITE</string>
+    <string name="mensagem_cadastro_sucesso">Cadastro efetuado com sucesso...</string>
+    <string name="mensagem_campos_invalidos_formulario">Há campos inválidos ou em branco</string>
+    <string name="mensagem_erro_incluir_banco">Erro ao incluir no banco de dados...</string>
+    <string name="mesagem_email_nao_licalizado_na_base">Email não registrado...</string>
+    <string name="titulo_login">CREDENCIAIS DE ACESSO</string>
+    <string name="fora_local">LOCALIZAÇÃO INVÁLIDA</string>
+    <string name="checkin_invalido">Para efetuar o check-in é necessário que você esteja no local</string>
+    <string name="mensagem_email_ja_existe">Email já existe na base de dados</string>
+    <string name="mensagem_impossivel_incluir">Não foi possível incluir este usuário</string>
+    <string name="email_sucesso">Mensagem enviada</string>
+    <string name="mensagem_enviar">ENVIAR</string>
+    <string name="Mensagem_informe_email">Seu endereço de email</string>
+    <string name="mensagem_email_invalido">Informe um email válido</string>
+    <string name="token">TOKEN</string>
+    <string name="menu_categoria">Categorias</string>
+    <string name="menu_meusdados">Meus dados</string>
+    <string name="menu_face">Facebook</string>
+    <string name="menu_sair">Desconectar</string>
+    <string name="mensagem_erro_incluir_alterar_senha">Erro ao atualizar a senha..</string>
+    <string name="titulo_redefinir_senha">REDEFINIR SENHA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_feed_publicacao">FeedPublicacaoActivity</string>
+    <string name="button_me_leve">ME LEVE ATÉ O LOCAL</string>
+    <string name="buttom_checkin">FAZER CHECK-IN</string>
+    <string name="buttom_vantagens">MINHAS VANTAGENS</string>
+    <string name="buttom_voltar">VOLTAR</string>
+    <string name="Sincronizar">Sincronizar</string>
+    <string name="facebook_app_id">1760156117611661</string>
+    <string name="fb_login_protocol_scheme">fb1760156117611661</string>
+    <string name="checkout">CHECK-OUT</string>
+    <string name="botao_atualiza">ATUALIZAR DADOS</string>
+    <string name="localize">Localize seu desconto</string>
+    <string name="home">Home</string>
+    <string name="destaque">DESTAQUE</string>
+    <string name="categorias">CATEGORIAS</string>
+    <string name="configuracoes">configurações</string>
+    <string name="title_activity_pin">Pin Cash</string>
+    <string name="nocnpj">CNPJ não localizado</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pinCash">Pin Cash</string>
+    <string name="noPublique">Nunca publicaremos no Facebook sem sua permissão. Ao usar o Check-in cash, você concorda com os Termos, a Política de Cookies e a Política de Privacidade.</string>
+    <string name="cnpj">Informe o CNPJ</string>
+    <string name="senha">Informe a senha</string>
+    <string name="conectado">Conectado</string>
+    <string name="saldo">Saldo Pin Cash</string>
+    <string name="saldopin">0</string>
+    <string name="tokenLojista">Informe o TOKEN</string>
+    <string name="validar">VALIDAR</string>
+</resources>

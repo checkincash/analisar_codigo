@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idprincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/fundo_degrade"
+    android:orientation="vertical"
+    app:layout_collapseParallaxMultiplier="0.0"
+    tools:context="br.com.alphasolutions.checkin.activity.MainActivity">
+
+    <include
+        android:id="@+id/toolbar_principal"
+        layout="@layout/toolbar"
+        />
+
+    <util.SlidingTabLayout
+        android:id="@+id/sliding_tab_main"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="bottom"
+        android:paddingTop="7dp"
+        android:background="@drawable/fundo_caixa_slidebar"
+
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+
+        >
+
+    </android.support.v4.view.ViewPager>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+
+</LinearLayout>

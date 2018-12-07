@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.alphasolutions.checkin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".activity.CheckinApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.CadastroActivity" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RecuperaSenhaActivity" />
+        <activity android:name=".activity.TokenActivity" />
+        <activity android:name=".activity.RecadastrarSenhaActivity" />
+        <activity
+            android:name=".activity.FeedPublicacaoActivity"
+            android:label="@string/title_activity_feed_publicacao"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.alphasolutions.checkin.activity.MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".activity.CheckinsucessoActivity" />
+        <activity android:name=".activity.ConcluicadastroActivity" />
+        <activity android:name=".activity.LoginfaceActivity" />
+        <activity android:name=".MainfragmentActivity" />
+        <activity
+            android:name=".activity.PinActivity"
+            android:label="@string/title_activity_pin"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.LoginlojistaActivity" />
+        <activity android:name=".activity.LojistaActivity"></activity>
+    </application>
+
+</manifest>

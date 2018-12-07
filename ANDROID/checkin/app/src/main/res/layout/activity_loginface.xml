@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundologinface"
+    tools:context="br.com.alphasolutions.checkin.activity.LoginfaceActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nunca publicaremos no Facebook sem sua permissão. Ao usar o Check-in cash, você concorda com os Termos, a Política de Cookies e a Política de Privacidade."
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/loginbuttonfaceID"
+        android:layout_alignStart="@+id/loginbuttonfaceID" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginbuttonfaceID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="177dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="22dp"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/compartilhar"
+        android:layout_below="@+id/txtconecte"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/txtconecte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="63dp"
+        android:gravity="center"
+        android:text="Redes disponíveis"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue_padrao"
+        android:padding="20dp"
+        app:srcCompat="@drawable/checkincash" />
+
+    <TextView
+        android:id="@+id/txtconectese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginbuttonfaceID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:gravity="center"
+        android:text="Conecte-se agora:"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

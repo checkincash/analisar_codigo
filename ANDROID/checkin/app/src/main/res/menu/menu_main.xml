@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+
+    >
+
+
+    <item
+        android:id="@+id/action_cadastro"
+        android:icon="@drawable/ic_action_ppeople"
+        android:orderInCategory="200"
+        android:title="@string/menu_meusdados"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_sincronizar"
+        android:orderInCategory="300"
+        android:title="@string/Sincronizar"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_face"
+        android:orderInCategory="370"
+        android:title="@string/menu_face"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_pin"
+        android:icon="@drawable/ic_room_black_24dp"
+        android:orderInCategory="350"
+        android:title="@string/pinCash"
+        app:showAsAction="ifRoom"
+        android:visible="true"/>
+    <item
+        android:id="@+id/action_sair"
+        android:orderInCategory="400"
+        android:title="@string/menu_sair"
+        app:showAsAction="never" />
+</menu>

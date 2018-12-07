@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewPin"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/txtViewPerDestaqueDesc3"
+        android:layout_toStartOf="@+id/textViewDesPin"
+        app:srcCompat="@drawable/iconcheckin" />
+
+    <TextView
+        android:id="@+id/textViewDesPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewDesCheck"
+        android:layout_below="@+id/textViewDescontoID2"
+        android:text="Ganhe 102 Pin's"
+        android:textColor="@android:color/holo_red_light" />
+
+    <ImageView
+        android:id="@+id/imagePromo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtDestaqueEnd1ID"
+        android:layout_alignStart="@+id/txtDestaqueEnd1ID"
+        android:layout_below="@+id/textViewDestaqCategoriaID"
+        app:srcCompat="@drawable/etiquetapromo" />
+
+    <ImageView
+        android:id="@+id/imageViewDestaqueID"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:padding="5dp"
+        android:scaleType="center"
+        app:srcCompat="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewTituloDestaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        android:layout_below="@+id/imageViewDestaqueID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtDestaqueEnd1ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewRazaoDestaID"
+        android:layout_marginLeft="15dp"
+        android:text="Rua Jose Caetano de Freitas, 592 Jardim Urano"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtDestaqueEnd2ID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtViewPerDestaqueDesc"
+        android:layout_alignStart="@+id/txtViewPerDestaqueDesc"
+        android:layout_below="@+id/txtViewPerDestaqueDesc"
+        android:text="divisor divisor"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewRazaoDestaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewDestaqueID"
+        android:elevation="0dp"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="MN EVENTOS E SHOWS"
+        android:layout_marginLeft="13dp"
+        android:textColor="@color/wallet_dim_foreground_inverse_holo_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewDestaquePcpa"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewTituloDestaID"
+        android:layout_toLeftOf="@+id/textViewDestaqCategoriaID"
+        android:layout_toStartOf="@+id/textViewDestaqCategoriaID"
+        android:padding="2dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/brinde" />
+
+    <ImageView
+        android:id="@+id/imgCheckdestaqueID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtDestaqueEnd1ID"
+        android:layout_alignStart="@+id/txtDestaqueEnd1ID"
+        android:layout_alignTop="@+id/imageViewDestaqueID"
+        app:srcCompat="@drawable/checkpoint" />
+
+    <TextView
+        android:id="@+id/textViewDestaqCategoriaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewRazaoDestaID"
+        android:layout_alignStart="@+id/textViewRazaoDestaID"
+        android:layout_below="@+id/txtDestaqueEnd1ID"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="Loja"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewDestaqClassificacao1ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewDestaqCategoriaID"
+        android:layout_alignBottom="@+id/textViewDestaqCategoriaID"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/textViewDestaqCategoriaID"
+        android:layout_toRightOf="@+id/textViewDestaqCategoriaID"
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="classificacao1"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewDestaqClassificacao2ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewDestaqClassificacao1ID"
+        android:layout_alignBottom="@+id/textViewDestaqClassificacao1ID"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/textViewDestaqClassificacao1ID"
+        android:layout_toRightOf="@+id/textViewDestaqClassificacao1ID"
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="classificacao2"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewDescontoID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDestaqCategoriaID"
+        android:layout_marginLeft="38dp"
+        android:text="-10%  desconto check-in"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDesCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/textViewDescontoID2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/chekin_style"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:text="check-in"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtViewPerDestaqueDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imagePromo2"
+        android:layout_alignStart="@+id/imagePromo2"
+        android:layout_below="@+id/imagePromo2"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/descontos"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="3dp"
+        android:text="SEG: 10%"
+        android:textColor="@android:color/white"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewPerDestaqueDesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDestaqueEnd2ID"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/txtViewPerDestaqueDesc"
+        android:layout_toRightOf="@+id/txtViewPerDestaqueDesc"
+        android:background="@drawable/descontos"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="3dp"
+        android:text="TER: 10%"
+        android:textColor="@android:color/white"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewPerDestaqueDesc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtViewPerDestaqueDesc2"
+        android:layout_alignBottom="@+id/txtViewPerDestaqueDesc2"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/txtViewPerDestaqueDesc2"
+        android:layout_toRightOf="@+id/txtViewPerDestaqueDesc2"
+        android:background="@drawable/descontos"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="3dp"
+        android:text="QUA: 10%"
+        android:textColor="@android:color/white"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+</RelativeLayout>

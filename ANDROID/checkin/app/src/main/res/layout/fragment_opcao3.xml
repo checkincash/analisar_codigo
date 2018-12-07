@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_degrade"
+    tools:context="fragments.Opcao3Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textViewSelecione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/fundo_caixa_categoria"
+        android:elevation="10dp"
+
+        android:paddingBottom="10dp"
+        android:paddingLeft="18dp"
+        android:paddingTop="10dp"
+        android:text="Selecione as categorias"
+        android:textColor="@color/branco_padrao"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listviewCategoriaId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBarID"
+        style="@android:style/Widget.DeviceDefault.Light.SeekBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+
+        android:background="@drawable/fundo_slides"
+
+        android:max="20"
+        android:min="5"
+        android:progress="1" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtRaioKMID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom|center"
+            android:text="RAIO"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</FrameLayout>

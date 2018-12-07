@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_degrade_blue"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="br.com.alphasolutions.checkin.activity.LoginActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/loginfacebookID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp">
+
+
+        <EditText
+            android:id="@+id/txtEmailUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/fundo_caixa_texto"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:hint="Entre com seu E-mail"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtEmailUserId"
+            android:layout_alignStart="@+id/txtEmailUserId"
+            android:layout_alignTop="@+id/txtEmailUserId"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ic_mail_outline" />
+
+        <EditText
+            android:id="@+id/txtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txtEmailUserId"
+            android:layout_alignLeft="@+id/txtEmailUserId"
+            android:layout_alignRight="@+id/txtEmailUserId"
+            android:layout_alignStart="@+id/txtEmailUserId"
+            android:layout_below="@+id/txtEmailUserId"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fundo_caixa_texto"
+            android:elevation="2dp"
+            android:ems="10"
+
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="Entre com sua Senha"
+            android:inputType="textPassword"
+            android:padding="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtSenha"
+            android:layout_alignStart="@+id/txtSenha"
+            android:layout_alignTop="@+id/txtSenha"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ic_lock_outline" />
+
+        <Button
+            android:id="@+id/btnAcessar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtSenha"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fundo_botao"
+            android:elevation="0dp"
+            android:text="@string/logar"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txtSemConta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnAcessar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="23dp"
+            android:onClick="cadastrarUsuario"
+            android:text="@string/sem_conta"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtEsqueciSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnAcessar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:onClick="recuperarSenha"
+            android:text="@string/esqueci_senha"
+            android:textColor="@android:color/background_light"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/logochk2" />
+
+        <TextView
+            android:id="@+id/textViewLocalize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/localize"
+            android:textColor="@color/branco_padrao"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewinfor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+
+        android:text="Nunca publicaremos no Facebook sem sua permissão. Ao usar o Check-in cash, você concorda com os Termos, a Política de Cookies e a Política de Privacidade."
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/textViewinfor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorAccent"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progressLoginId"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewinfor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:id="@+id/textViewLojista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginfacebookID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:onClick="souLojista"
+        android:text="Sou lojista"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

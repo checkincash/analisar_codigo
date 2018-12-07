@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_premio"
+            android:icon="@drawable/ic_action_premios"
+            android:title="Prêmios" />
+        <item
+            android:id="@+id/nav_lugares"
+            android:icon="@drawable/ic_action_visitados"
+            android:title="Locais Visitados" />
+        <item
+            android:id="@+id/nav_sorteios"
+            android:icon="@drawable/ic_action_sorteio"
+            android:title="Sorteios" />
+        <item
+            android:id="@+id/nav_regulamento"
+            android:icon="@drawable/ic_action_regulamento"
+            android:title="Regulamento" />
+    </group>
+
+    <item android:title="Communicate"
+          >
+        <menu>
+            <item
+                android:id="@+id/nav_retorna"
+                android:icon="@drawable/ic_action_pin_black"
+                android:title="Check-in Cash" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_action_exit"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

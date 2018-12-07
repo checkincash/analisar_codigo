@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_degrade_blue"
+    tools:context="br.com.alphasolutions.checkin.activity.ConcluicadastroActivity">
+
+    <TextView
+        android:id="@+id/txttitulocabe"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:elevation="20dp"
+        android:foregroundGravity="top"
+        android:gravity="center"
+        android:text="MEUS DADOS"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtnome"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtendereco"
+        android:layout_alignStart="@+id/txtendereco"
+        android:layout_below="@+id/txttitulocabe"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textSize="12sp"
+        android:imeOptions="actionNext"
+        />
+
+    <EditText
+        android:id="@+id/txtsobrenomeend"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Digite o sobrenome"
+        android:nextFocusDown="@+id/txtendereco"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/txtnome"
+        android:layout_alignBottom="@+id/txtnome"
+        android:layout_alignRight="@+id/txtemail"
+        android:layout_alignEnd="@+id/txtemail" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtnome"
+        android:layout_alignStart="@+id/txtnome"
+        android:layout_below="@+id/txtnome"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Digite o seu email"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtendereco"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtemail"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Digite o endereço"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/txtnumeroend"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/txtcomplemento"
+        android:layout_alignEnd="@+id/txtemail"
+        android:layout_alignRight="@+id/txtemail"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Numero"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:padding="14dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/txtcomplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtendereco"
+        android:layout_alignStart="@+id/txtendereco"
+        android:layout_below="@+id/txtendereco"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Complemento"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/txtbairroend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtcomplemento"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Digite o bairro"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/txtcidadeend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtemail"
+        android:layout_alignStart="@+id/txtemail"
+        android:layout_below="@+id/txtbairroend"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Digite a cidade"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/txtestadoend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtcidadeend"
+        android:layout_alignStart="@+id/txtcidadeend"
+        android:layout_below="@+id/txtcidadeend"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+
+        android:hint="Digite o estado"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:maxLength="2"
+        android:padding="14dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/txtcepend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtestadoend"
+        android:layout_alignStart="@+id/txtestadoend"
+        android:layout_below="@+id/txtestadoend"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="Digite o cep"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName|number"
+        android:maxLength="9"
+        android:padding="14dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnatualizarend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/fundo_botao"
+        android:elevation="10dp"
+        android:text="@string/botao_atualiza"
+        android:textColor="@android:color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressBarCad"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtcidadeend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp" />
+
+</RelativeLayout>

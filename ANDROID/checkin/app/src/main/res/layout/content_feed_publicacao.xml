@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.alphasolutions.checkin.activity.FeedPublicacaoActivity">
+
+
+    <ImageView
+        android:id="@+id/imagePromo3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/txtViewFeedPerDesc1ID"
+        android:layout_alignLeft="@+id/txtFeedPromocionalID"
+        android:layout_alignStart="@+id/txtFeedPromocionalID"
+        android:layout_marginBottom="29dp"
+        android:elevation="5dp"
+        app:srcCompat="@drawable/etiquetapreco" />
+
+    <TextView
+        android:id="@+id/txtViewFeedCategoriaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonCheckin"
+        android:layout_alignRight="@+id/buttonCheckin"
+        android:layout_below="@+id/txtFeedEndereco2ID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="LOJAS - MODA"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewFeedClassificacao1ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtViewFeedCategoriaID"
+        android:layout_alignBottom="@+id/txtViewFeedCategoriaID"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/txtViewFeedCategoriaID"
+        android:layout_toRightOf="@+id/txtViewFeedCategoriaID"
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="Classificacao 1"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtViewFeedClassificacao2ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtViewFeedClassificacao1ID"
+        android:layout_alignBottom="@+id/txtViewFeedClassificacao1ID"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/txtViewFeedClassificacao1ID"
+        android:layout_toRightOf="@+id/txtViewFeedClassificacao1ID"
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="Classificacao 2"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageViewFeedPublicaID"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:elevation="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@android:color/white"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/buttonMeLeve"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_x="282dp"
+        android:layout_y="269dp"
+        android:background="@drawable/fundologinface"
+        android:elevation="20dp"
+        android:padding="2dp"
+        android:text="@string/button_me_leve"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBarFeedID"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtFeedRazaoID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:elevation="3dp" />
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/buttonCheckin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/buttonMeLeve"
+        android:layout_below="@+id/textViewFeedValTerID"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/chekin_style"
+        android:gravity="center"
+        android:text="check-in"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtFeedRazaoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewFeedPublicaID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+
+        android:text="Lorena Store"
+        android:textColor="@color/wallet_dim_foreground_inverse_holo_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtFeedEnderecoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMeLeve"
+        android:layout_alignStart="@+id/buttonMeLeve"
+        android:layout_below="@+id/txtFeedRazaoID"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="3dp"
+        android:text="Rua Marechal Deodoro, 2135 - Centro"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/txtFeedEndereco2ID"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMeLeve"
+        android:layout_alignStart="@+id/buttonMeLeve"
+        android:layout_below="@+id/txtFeedEnderecoID"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="3dp"
+        android:text="São José do Rio Preto - SP - Tel (17) 981362614"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/txtFeedPromocionalID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/buttonMeLeve"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="25dp"
+        android:paddingTop="24dp"
+        android:text="-10% desconto check-in"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewFeedPerDesc1ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtFeedPromocionalID"
+        android:layout_alignLeft="@+id/buttonMeLeve"
+        android:layout_alignStart="@+id/buttonMeLeve"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="108dp"
+
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="3dp"
+        android:text="SEG: 10%"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewFeedPerDesc2ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtViewFeedPerDesc1ID"
+        android:layout_alignLeft="@+id/progressBarFeedID"
+        android:layout_marginLeft="5dp"
+
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="3dp"
+        android:text="TER: 10%"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewFeedPerDesc3ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/txtViewFeedPerDesc2ID"
+        android:layout_alignLeft="@+id/txtViewFeedPerDesc2ID"
+
+        android:layout_marginLeft="50dp"
+
+        android:background="@drawable/categoria_style"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="3dp"
+        android:text="QUA: 15%"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFeedFuncionamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMeLeve"
+        android:layout_alignStart="@+id/buttonMeLeve"
+        android:layout_below="@+id/txtViewFeedCategoriaID"
+        android:layout_marginLeft="17sp"
+        android:layout_marginTop="4dp"
+        android:text="Funcionamento:"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFeedSegID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="17dp"
+        android:layout_alignLeft="@+id/buttonMeLeve"
+        android:layout_alignStart="@+id/buttonMeLeve"
+        android:layout_below="@+id/textViewFeedFuncionamento"
+        android:text="Segunda-Feira"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedTercaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedSegID"
+        android:layout_alignStart="@+id/textViewFeedSegID"
+        android:layout_below="@+id/textViewFeedSegID"
+        android:text="Terça-Feira"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedQuartaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedTercaID"
+        android:layout_alignStart="@+id/textViewFeedTercaID"
+        android:layout_below="@+id/textViewFeedTercaID"
+        android:text="Quarta-Feira"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedQuintaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedQuartaId"
+        android:layout_alignStart="@+id/textViewFeedQuartaId"
+        android:layout_below="@+id/textViewFeedQuartaId"
+        android:text="Quinta-Feira"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedSextaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignEnd="@+id/textViewFeedTercaID"
+        android:layout_alignRight="@+id/textViewFeedTercaID"
+        android:layout_below="@+id/textViewFeedQuintaID"
+        android:text="Sexta-Feira"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedSabadoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewFeedQuintaID"
+        android:layout_alignStart="@+id/textViewFeedQuintaID"
+        android:layout_below="@+id/textViewFeedSextaID"
+        android:layout_marginTop="2dp"
+        android:text="Sábado"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedDomID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedSabadoID"
+        android:layout_alignStart="@+id/textViewFeedSabadoID"
+        android:layout_below="@+id/textViewFeedSabadoID"
+        android:text="Domingo"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedValSegID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewFeedSegID"
+        android:layout_toEndOf="@+id/textViewFeedFuncionamento"
+        android:layout_toRightOf="@+id/textViewFeedFuncionamento"
+        android:text="08:00 12:00 - 13:30 18:00"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedValTerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedValSegID"
+        android:layout_alignStart="@+id/textViewFeedValSegID"
+        android:layout_below="@+id/textViewFeedValSegID"
+        android:text="08:00 12:00 - 13:30 18:00"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedValQuaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedValTerID"
+        android:layout_alignStart="@+id/textViewFeedValTerID"
+        android:layout_below="@+id/textViewFeedValTerID"
+        android:text="08:00 12:00 - 13:30 18:00"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedValQuiID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedValQuaID"
+        android:layout_alignStart="@+id/textViewFeedValQuaID"
+        android:layout_below="@+id/textViewFeedValQuaID"
+        android:text="08:00 12:00 - 13:30 18:00"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedValSexID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedValQuiID"
+        android:layout_alignStart="@+id/textViewFeedValQuiID"
+        android:layout_below="@+id/textViewFeedValQuiID"
+        android:text="08:00 12:00 - 13:30 18:00"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedValSabID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedValSexID"
+        android:layout_alignStart="@+id/textViewFeedValSexID"
+        android:layout_below="@+id/textViewFeedValSexID"
+        android:text="08:00 12:00 - 13:30 18:00"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedValDomID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/textViewFeedValSabID"
+        android:layout_alignStart="@+id/textViewFeedValSabID"
+        android:layout_below="@+id/textViewFeedValSabID"
+        android:text="08:00 12:00 - 13:30 18:00"
+        android:textColor="@color/com_facebook_button_background_color_disabled"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewFeedTelefoneID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_alignLeft="@+id/textViewFeedSextaID"
+        android:layout_alignStart="@+id/textViewFeedSextaID"
+        android:layout_below="@+id/textViewFeedDomID"
+        android:text="Telefone: (17) 98136-2614"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
