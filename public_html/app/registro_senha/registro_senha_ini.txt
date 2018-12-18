@@ -1,0 +1,7 @@
+index.php
+CheckIn
+registro_senha
+NAO
+form
+registro_senha
+LigMd5

@@ -1,0 +1,42 @@
+.css_data_criacao_label { }
+.css_data_criacao_line { }
+.css_data_criacao_obj { }
+.css_nomenclatura_label { }
+.css_nomenclatura_line { }
+.css_nomenclatura_obj { }
+.css_foto_publicacao_label {font-size:12px;text-align:center;}
+.css_foto_publicacao_line {text-align:center;}
+.css_foto_publicacao_obj {text-align:center;}
+.css_texto_publicacao_label {font-size:12px;color:#FF9966;text-align:right;}
+.css_texto_publicacao_line { }
+.css_texto_publicacao_obj { }
+.css_cep_label { }
+.css_cep_line { }
+.css_cep_obj { }
+.css_bairro_label { }
+.css_bairro_line { }
+.css_bairro_obj { }
+.css_rua_label { }
+.css_rua_line { }
+.css_rua_obj { }
+.css_numero_label { }
+.css_numero_line { }
+.css_numero_obj { }
+.css_complemento_label { }
+.css_complemento_line { }
+.css_complemento_obj { }
+.css_cidade_label { }
+.css_cidade_line { }
+.css_cidade_obj { }
+.css_estado_label { }
+.css_estado_line { }
+.css_estado_obj { }
+.css_destaque_label { }
+.css_destaque_line {font-size:14px;color:#99CCFF;font-weight:normal;text-align:left;}
+.css_destaque_obj {font-size:14px;color:#99CCFF;font-weight:normal;text-align:left;}
+.css_pdesconto_label {font-size:14px;color:#99CCFF;font-weight:bold;}
+.css_pdesconto_line {font-size:14px;font-weight:bold;text-align:left;}
+.css_pdesconto_obj {font-size:14px;font-weight:bold;text-align:right;}
+.css_situacao_label { }
+.css_situacao_line {text-align:left;}
+.css_situacao_obj {text-align:left;}

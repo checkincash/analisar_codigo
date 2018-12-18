@@ -1,0 +1,33 @@
+[19-Mar-2018 13:39:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/check956/public_html/api/pincash/recupera_pincash_premios.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/pincash/recupera_pincash_premios.php on line 23
+[19-Mar-2018 13:40:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/check956/public_html/api/pincash/recupera_pincash_premios.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/pincash/recupera_pincash_premios.php on line 23
+[19-Mar-2018 13:40:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/check956/public_html/api/pincash/recupera_pincash_premios.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/pincash/recupera_pincash_premios.php on line 23
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/check956/public_html/api/pincash/db.php on line 4
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/check956/public_html/api/pincash/db.php on line 5
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/check956/public_html/api/pincash/recupera_pincash_premios.php on line 21
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/check956/public_html/api/pincash/recupera_pincash_premios.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/pincash/recupera_pincash_premios.php on line 25
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/check956/public_html/api/pincash/db.php on line 4
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/check956/public_html/api/pincash/db.php on line 5
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/check956/public_html/api/pincash/sorteio.php on line 9
+[30-Apr-2018 10:16:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/check956/public_html/api/pincash/sorteio.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/pincash/sorteio.php on line 13
+[02-May-2018 14:39:10 America/Sao_Paulo] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/check956/public_html/api/pincash/db.php on line 4
+[02-May-2018 14:39:13 America/Sao_Paulo] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/check956/public_html/api/pincash/db.php on line 5
+[02-May-2018 14:39:17 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/check956/public_html/api/pincash/sorteio.php on line 9
+[02-May-2018 14:39:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/check956/public_html/api/pincash/sorteio.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/pincash/sorteio.php on line 13

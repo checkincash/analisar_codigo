@@ -1,0 +1,42 @@
+[27-Mar-2018 15:28:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apContratoDAO.php:255
+Stack trace:
+#0 /home/check956/public_html/dashboard/admin/financeiro.php(14): apContratoDAO->select('*', 'cnpj = 13938456...')
+#1 {main}
+  thrown in /home/check956/public_html/dashboard/model/apContratoDAO.php on line 255
+[27-Mar-2018 15:28:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apContratoDAO.php:255
+Stack trace:
+#0 /home/check956/public_html/dashboard/admin/index.php(15): apContratoDAO->select('count(*) as qtd...', 'razao like '%%'')
+#1 {main}
+  thrown in /home/check956/public_html/dashboard/model/apContratoDAO.php on line 255
+[27-Mar-2018 15:28:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apContratoDAO.php:255
+Stack trace:
+#0 /home/check956/public_html/dashboard/admin/index.php(15): apContratoDAO->select('count(*) as qtd...', 'razao like '%%'')
+#1 {main}
+  thrown in /home/check956/public_html/dashboard/model/apContratoDAO.php on line 255
+[27-Mar-2018 15:28:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apPincashSorteioDAO.php:60
+Stack trace:
+#0 /home/check956/public_html/dashboard/admin/sorteios.php(18): apPincashSorteioDAO->select('*', 'texto_campanha ...')
+#1 {main}
+  thrown in /home/check956/public_html/dashboard/model/apPincashSorteioDAO.php on line 60
+[27-Mar-2018 15:28:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apPincashSorteioDAO.php:60
+Stack trace:
+#0 /home/check956/public_html/dashboard/admin/index.php(19): apPincashSorteioDAO->select('count(*) as qtd...', 'texto_campanha ...')
+#1 {main}
+  thrown in /home/check956/public_html/dashboard/model/apPincashSorteioDAO.php on line 60
+[27-Mar-2018 15:29:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apContratoDAO.php:255
+Stack trace:
+#0 /home/check956/public_html/dashboard/admin/contratos.php(11): apContratoDAO->select('*', 'razao like '%%'')
+#1 {main}
+  thrown in /home/check956/public_html/dashboard/model/apContratoDAO.php on line 255
+[27-Mar-2018 15:29:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apConfiguracaoDAO.php:92
+Stack trace:
+#0 /home/check956/public_html/dashboard/model/apContratoFinDAO.php(14): apConfiguracaoDAO->select('*', 'id = 1')
+#1 /home/check956/public_html/dashboard/model/apContratoDAO.php(277): apContratoFinDAO->__construct()
+#2 /home/check956/public_html/dashboard/admin/contratos.php(15): apContratoDAO->getInfo(Array)
+#3 {main}
+  thrown in /home/check956/public_html/dashboard/model/apConfiguracaoDAO.php on line 92
+[27-Mar-2018 15:29:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/dashboard/model/apContratoDAO.php:255
+Stack trace:
+#0 /home/check956/public_html/dashboard/admin/index.php(15): apContratoDAO->select('count(*) as qtd...', 'razao like '%%'')
+#1 {main}
+  thrown in /home/check956/public_html/dashboard/model/apContratoDAO.php on line 255

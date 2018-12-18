@@ -1,0 +1,156 @@
+[29-Dec-2017 11:33:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/check956/public_html/api/objetos/usuario.php:93
+Stack trace:
+#0 /home/check956/public_html/api/usuario/read_one.php(23): Usuario->readOne()
+#1 {main}
+  thrown in /home/check956/public_html/api/objetos/usuario.php on line 93
+[29-Dec-2017 11:35:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/check956/public_html/api/objetos/usuario.php:93
+Stack trace:
+#0 /home/check956/public_html/api/usuario/read_one.php(23): Usuario->readOne()
+#1 {main}
+  thrown in /home/check956/public_html/api/objetos/usuario.php on line 93
+[29-Dec-2017 12:41:01 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/check956/public_html/api/objetos/usuario.php on line 168
+[29-Dec-2017 12:50:40 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/check956/public_html/api/usuario/delete.php on line 28
+[29-Dec-2017 14:41:12 America/Sao_Paulo] PHP Warning:  include_once(../config/core.php): failed to open stream: No such file or directory in /home/check956/public_html/api/usuario/read_paging.php on line 7
+[29-Dec-2017 14:41:12 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../config/core.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/check956/public_html/api/usuario/read_paging.php on line 7
+[29-Dec-2017 17:30:27 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:30:27 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:30:27 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:30:27 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:30:27 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:30:27 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:30:27 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:21 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:21 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:21 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:21 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:21 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:21 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:21 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 17:31:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/check956/public_html/api/usuario/read.php on line 46
+[29-Dec-2017 23:10:42 America/Sao_Paulo] PHP Warning:  include_once(../objects/usuario.php): failed to open stream: No such file or directory in /home/check956/public_html/api/usuario/create.php on line 13
+[29-Dec-2017 23:10:42 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../objects/usuario.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/check956/public_html/api/usuario/create.php on line 13
+[29-Dec-2017 23:10:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home/check956/public_html/api/usuario/create.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/create.php on line 18
+[29-Dec-2017 23:55:47 America/Sao_Paulo] PHP Warning:  include_once(../objects/usuario.php): failed to open stream: No such file or directory in /home/check956/public_html/api/usuario/create.php on line 13
+[29-Dec-2017 23:55:47 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../objects/usuario.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/check956/public_html/api/usuario/create.php on line 13
+[29-Dec-2017 23:55:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home/check956/public_html/api/usuario/create.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/create.php on line 18
+[30-Dec-2017 00:02:31 America/Sao_Paulo] PHP Warning:  include_once(../objects/usuario.php): failed to open stream: No such file or directory in /home/check956/public_html/api/usuario/create.php on line 13
+[30-Dec-2017 00:02:31 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../objects/usuario.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/check956/public_html/api/usuario/create.php on line 13
+[30-Dec-2017 00:02:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home/check956/public_html/api/usuario/create.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/create.php on line 18
+[30-Dec-2017 00:07:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/check956/public_html/api/usuario/create.php on line 28
+[30-Dec-2017 00:21:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/check956/public_html/api/usuario/create.php on line 28
+[30-Dec-2017 01:02:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/check956/public_html/api/usuario/create.php on line 28
+[30-Dec-2017 01:13:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::md5() in /home/check956/public_html/api/usuario/create.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/create.php on line 28
+[30-Dec-2017 01:16:18 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/check956/public_html/api/objetos/usuario.php on line 69
+[03-Jan-2018 09:42:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::md5() in /home/check956/public_html/api/objetos/usuario.php:64
+Stack trace:
+#0 /home/check956/public_html/api/usuario/create.php(34): Usuario->create()
+#1 {main}
+  thrown in /home/check956/public_html/api/objetos/usuario.php on line 64
+[03-Jan-2018 09:44:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::md5() in /home/check956/public_html/api/objetos/usuario.php:56
+Stack trace:
+#0 /home/check956/public_html/api/usuario/create.php(34): Usuario->create()
+#1 {main}
+  thrown in /home/check956/public_html/api/objetos/usuario.php on line 56
+[03-Jan-2018 09:48:26 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/check956/public_html/api/objetos/usuario.php on line 69
+[03-Jan-2018 11:39:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::md5() in /home/check956/public_html/api/usuario/update.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 29
+[03-Jan-2018 11:43:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::md5() in /home/check956/public_html/api/usuario/update.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 29
+[03-Jan-2018 11:45:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 32
+[03-Jan-2018 11:46:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 32
+[03-Jan-2018 11:59:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 32
+[03-Jan-2018 12:02:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 32
+[03-Jan-2018 12:07:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 32
+[03-Jan-2018 12:11:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 32
+[03-Jan-2018 12:14:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 32
+[03-Jan-2018 12:23:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 34
+[03-Jan-2018 12:25:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 34
+[03-Jan-2018 12:26:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 34
+[03-Jan-2018 12:40:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 34
+[03-Jan-2018 13:01:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home/check956/public_html/api/usuario/update.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/update.php on line 34
+[03-Jan-2018 16:24:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::rowCount() in /home/check956/public_html/api/usuario/read_one.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/read_one.php on line 25
+[03-Jan-2018 16:26:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::rowCount() in /home/check956/public_html/api/usuario/read_one.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/read_one.php on line 25
+[03-Jan-2018 16:31:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::rowCount() in /home/check956/public_html/api/usuario/read_one.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/read_one.php on line 25
+[03-Jan-2018 16:31:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::rowCount() in /home/check956/public_html/api/usuario/read_one.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/read_one.php on line 25
+[03-Jan-2018 16:37:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::rowCount() in /home/check956/public_html/api/usuario/read_one.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/check956/public_html/api/usuario/read_one.php on line 25
+[03-Jan-2018 19:40:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'dataregistro' (T_STRING), expecting ',' or ';' in /home/check956/public_html/api/usuario/read_one.php on line 74
+[04-Jan-2018 11:25:41 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/check956/public_html/api/objetos/usuario.php on line 137
+[04-Jan-2018 11:27:46 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/check956/public_html/api/objetos/usuario.php on line 137
+[22-Mar-2018 09:57:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/check956/public_html/api/objetos/usuario.php:132
+Stack trace:
+#0 /home/check956/public_html/api/usuario/read_credentials.php(25): Usuario->readCredentials()
+#1 {main}
+  thrown in /home/check956/public_html/api/objetos/usuario.php on line 132

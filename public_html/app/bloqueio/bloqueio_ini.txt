@@ -1,0 +1,7 @@
+index.php
+CheckIn
+bloqueio
+NAO
+blank
+bloqueio
+LigMd5

@@ -1,0 +1,69 @@
+.css_fk_contrato_label { }
+.css_fk_contrato_line {text-align:left;}
+.css_fk_contrato_obj {text-align:left;}
+.css_data_criacao_label { }
+.css_data_criacao_line { }
+.css_data_criacao_obj { }
+.css_nomenclatura_label { }
+.css_nomenclatura_line { }
+.css_nomenclatura_obj { }
+.css_foto_publicacao_label {font-size:12px;text-align:center;}
+.css_foto_publicacao_line {text-align:center;}
+.css_foto_publicacao_obj {text-align:center;}
+.css_texto_publicacao_label {font-size:12px;color:#FF9966;text-align:right;}
+.css_texto_publicacao_line { }
+.css_texto_publicacao_obj { }
+.css_cep_label { }
+.css_cep_line { }
+.css_cep_obj {width:85%;}
+.css_bairro_label { }
+.css_bairro_line { }
+.css_bairro_obj {width:95%;}
+.css_rua_label { }
+.css_rua_line { }
+.css_rua_obj {width:95%;}
+.css_numero_label { }
+.css_numero_line { }
+.css_numero_obj {width:95%;}
+.css_complemento_label { }
+.css_complemento_line { }
+.css_complemento_obj {width:95%;}
+.css_cidade_label { }
+.css_cidade_line { }
+.css_cidade_obj {width:95%;}
+.css_estado_label { }
+.css_estado_line { }
+.css_estado_obj {width:95%;}
+.css_destaque_label {font-size:14px;text-align:left;}
+.css_destaque_line {font-size:14px;color:#000000;background-color:#FFFFCC;font-weight:normal;text-align:left;}
+.css_destaque_obj {font-size:14px;color:#000000;font-weight:normal;text-align:left;}
+.css_situacao_label { }
+.css_situacao_line { }
+.css_situacao_obj { }
+.css_pseg_label { }
+.css_pseg_line {text-align:left;}
+.css_pseg_obj {text-align:left;}
+.css_pter_label { }
+.css_pter_line {text-align:left;}
+.css_pter_obj {text-align:left;}
+.css_pqua_label { }
+.css_pqua_line {text-align:left;}
+.css_pqua_obj {text-align:left;}
+.css_pqui_label { }
+.css_pqui_line {text-align:left;}
+.css_pqui_obj {text-align:left;}
+.css_psex_label { }
+.css_psex_line {text-align:left;}
+.css_psex_obj {text-align:left;}
+.css_psab_label { }
+.css_psab_line {text-align:left;}
+.css_psab_obj {text-align:left;}
+.css_pdom_label { }
+.css_pdom_line {text-align:left;}
+.css_pdom_obj {text-align:left;}
+.css_abreviatura_label { }
+.css_abreviatura_line { }
+.css_abreviatura_obj {width:95%;}
+.css_destaque_img_label {background-color:#6699FF;text-align:center;}
+.css_destaque_img_line {background-color:#6699FF;text-align:center;}
+.css_destaque_img_obj {text-align:center;}

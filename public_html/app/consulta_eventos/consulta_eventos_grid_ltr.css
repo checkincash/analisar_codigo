@@ -1,0 +1,20 @@
+.css_situacao_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_situacao_grid_line {vertical-align: top;text-align: left;}
+.css_data_criacao_label {text-align:center;vertical-align:middle;font-weight:bold;}
+.css_data_criacao_grid_line {vertical-align: top;text-align: center;}
+.css_nomenclatura_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_nomenclatura_grid_line {vertical-align: top;text-align: left;}
+.css_estado_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_estado_grid_line {vertical-align: top;text-align: left;}
+.css_cidade_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_cidade_grid_line {vertical-align: top;text-align: left;}
+.css_destaque_label {text-align:right;vertical-align:middle;font-weight:bold;}
+.css_destaque_grid_line {vertical-align: top;text-align: right;}
+.css_pk_publicador_label {text-align:right;vertical-align:middle;font-weight:bold;}
+.css_pk_publicador_grid_line {vertical-align: top;text-align: right;}
+.css_fk_contrato_label {text-align:right;vertical-align:middle;font-weight:bold;}
+.css_fk_contrato_grid_line {vertical-align: top;text-align: right;}
+.css_foto_publicacao_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_foto_publicacao_grid_line {vertical-align: top;text-align: left;}
+.css_texto_publicacao_label {text-align:left;vertical-align:middle;font-weight:bold;}
+.css_texto_publicacao_grid_line {vertical-align: top;text-align: left;}
